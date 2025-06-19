@@ -19,13 +19,13 @@ def set_size(width, fraction=1, subplots=(1, 1)):
     if width == 'thesis':
         width_pt = 452
     elif width == "AGU":
-    	width_pt = 397.48499
+        width_pt = 397.48499
     elif width == "article":
-    	width_pt = 221
+        width_pt = 221
     elif width == 'beamer':
         width_pt = 307.28987
     elif width == 'poster':
-    	width_pt = 1192
+        width_pt = 1192
     else:
         width_pt = width
 
